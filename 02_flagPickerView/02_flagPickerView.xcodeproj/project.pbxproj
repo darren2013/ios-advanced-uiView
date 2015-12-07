@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F563D0AB1C008C1300138686 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F563D0AA1C008C1300138686 /* main.m */; };
+		F563D0AE1C008C1300138686 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F563D0AD1C008C1300138686 /* AppDelegate.m */; };
+		F563D0B11C008C1300138686 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F563D0B01C008C1300138686 /* ViewController.m */; };
+		F563D0B41C008C1300138686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F563D0B21C008C1300138686 /* Main.storyboard */; };
+		F563D0B61C008C1300138686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F563D0B51C008C1300138686 /* Assets.xcassets */; };
+		F563D0B91C008C1300138686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F563D0B71C008C1300138686 /* LaunchScreen.storyboard */; };
+		F563D0C41C008C1300138686 /* _2_flagPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F563D0C31C008C1300138686 /* _2_flagPickerViewTests.m */; };
+		F563D0CF1C008C1300138686 /* _2_flagPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F563D0CE1C008C1300138686 /* _2_flagPickerViewUITests.m */; };
+		F563D0EC1C008C9200138686 /* agt.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0DD1C008C9200138686 /* agt.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0ED1C008C9200138686 /* baxi.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0DE1C008C9200138686 /* baxi.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0EE1C008C9200138686 /* deguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0DF1C008C9200138686 /* deguo.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0EF1C008C9200138686 /* faguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E01C008C9200138686 /* faguo.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F11C008C9200138686 /* hanguo.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E21C008C9200138686 /* hanguo.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F21C008C9200138686 /* helan.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E31C008C9200138686 /* helan.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F31C008C9200138686 /* putaoya.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E41C008C9200138686 /* putaoya.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F41C008C9200138686 /* ruidian.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E51C008C9200138686 /* ruidian.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F51C008C9200138686 /* ruishi.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E61C008C9200138686 /* ruishi.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F61C008C9200138686 /* wlgui.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E71C008C9200138686 /* wlgui.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F71C008C9200138686 /* xiby.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E81C008C9200138686 /* xiby.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F81C008C9200138686 /* ydl.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0E91C008C9200138686 /* ydl.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0F91C008C9200138686 /* ying.gif in Resources */ = {isa = PBXBuildFile; fileRef = F563D0EA1C008C9200138686 /* ying.gif */; settings = {ASSET_TAGS = (); }; };
+		F563D0FA1C008C9200138686 /* zhongguo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F563D0EB1C008C9200138686 /* zhongguo.jpg */; settings = {ASSET_TAGS = (); }; };
+		F563D0FD1C008D8300138686 /* DDFlag.m in Sources */ = {isa = PBXBuildFile; fileRef = F563D0FC1C008D8300138686 /* DDFlag.m */; settings = {ASSET_TAGS = (); }; };
+		F563D0FF1C008F9E00138686 /* DDFlagPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F563D0FE1C008F9E00138686 /* DDFlagPickerView.xib */; settings = {ASSET_TAGS = (); }; };
+		F563D1021C00908B00138686 /* DDFlagPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F563D1011C00908B00138686 /* DDFlagPickerView.m */; settings = {ASSET_TAGS = (); }; };
+		F563D1041C00932F00138686 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = F563D1031C00932F00138686 /* flags.plist */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F563D0C01C008C1300138686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F563D09E1C008C1300138686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F563D0A51C008C1300138686;
+			remoteInfo = 02_flagPickerView;
+		};
+		F563D0CB1C008C1300138686 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F563D09E1C008C1300138686 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F563D0A51C008C1300138686;
+			remoteInfo = 02_flagPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F563D0A61C008C1300138686 /* 02_flagPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 02_flagPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F563D0AA1C008C1300138686 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F563D0AC1C008C1300138686 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F563D0AD1C008C1300138686 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F563D0AF1C008C1300138686 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F563D0B01C008C1300138686 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F563D0B31C008C1300138686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F563D0B51C008C1300138686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F563D0B81C008C1300138686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F563D0BA1C008C1300138686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F563D0BF1C008C1300138686 /* 02_flagPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 02_flagPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F563D0C31C008C1300138686 /* _2_flagPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_flagPickerViewTests.m; sourceTree = "<group>"; };
+		F563D0C51C008C1300138686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F563D0CA1C008C1300138686 /* 02_flagPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 02_flagPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F563D0CE1C008C1300138686 /* _2_flagPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _2_flagPickerViewUITests.m; sourceTree = "<group>"; };
+		F563D0D01C008C1300138686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F563D0DD1C008C9200138686 /* agt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = agt.gif; sourceTree = "<group>"; };
+		F563D0DE1C008C9200138686 /* baxi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = baxi.gif; sourceTree = "<group>"; };
+		F563D0DF1C008C9200138686 /* deguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = deguo.gif; sourceTree = "<group>"; };
+		F563D0E01C008C9200138686 /* faguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = faguo.gif; sourceTree = "<group>"; };
+		F563D0E21C008C9200138686 /* hanguo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hanguo.gif; sourceTree = "<group>"; };
+		F563D0E31C008C9200138686 /* helan.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = helan.gif; sourceTree = "<group>"; };
+		F563D0E41C008C9200138686 /* putaoya.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = putaoya.gif; sourceTree = "<group>"; };
+		F563D0E51C008C9200138686 /* ruidian.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruidian.gif; sourceTree = "<group>"; };
+		F563D0E61C008C9200138686 /* ruishi.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ruishi.gif; sourceTree = "<group>"; };
+		F563D0E71C008C9200138686 /* wlgui.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = wlgui.gif; sourceTree = "<group>"; };
+		F563D0E81C008C9200138686 /* xiby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = xiby.gif; sourceTree = "<group>"; };
+		F563D0E91C008C9200138686 /* ydl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ydl.gif; sourceTree = "<group>"; };
+		F563D0EA1C008C9200138686 /* ying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ying.gif; sourceTree = "<group>"; };
+		F563D0EB1C008C9200138686 /* zhongguo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhongguo.jpg; sourceTree = "<group>"; };
+		F563D0FB1C008D8300138686 /* DDFlag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFlag.h; sourceTree = "<group>"; };
+		F563D0FC1C008D8300138686 /* DDFlag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFlag.m; sourceTree = "<group>"; };
+		F563D0FE1C008F9E00138686 /* DDFlagPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDFlagPickerView.xib; sourceTree = "<group>"; };
+		F563D1001C00908B00138686 /* DDFlagPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFlagPickerView.h; sourceTree = "<group>"; };
+		F563D1011C00908B00138686 /* DDFlagPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFlagPickerView.m; sourceTree = "<group>"; };
+		F563D1031C00932F00138686 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F563D0A31C008C1300138686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F563D0BC1C008C1300138686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F563D0C71C008C1300138686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F563D09D1C008C1300138686 = {
+			isa = PBXGroup;
+			children = (
+				F563D0A81C008C1300138686 /* 02_flagPickerView */,
+				F563D0C21C008C1300138686 /* 02_flagPickerViewTests */,
+				F563D0CD1C008C1300138686 /* 02_flagPickerViewUITests */,
+				F563D0A71C008C1300138686 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F563D0A71C008C1300138686 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F563D0A61C008C1300138686 /* 02_flagPickerView.app */,
+				F563D0BF1C008C1300138686 /* 02_flagPickerViewTests.xctest */,
+				F563D0CA1C008C1300138686 /* 02_flagPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F563D0A81C008C1300138686 /* 02_flagPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				F563D1001C00908B00138686 /* DDFlagPickerView.h */,
+				F563D1011C00908B00138686 /* DDFlagPickerView.m */,
+				F563D0FB1C008D8300138686 /* DDFlag.h */,
+				F563D0FC1C008D8300138686 /* DDFlag.m */,
+				F563D0AC1C008C1300138686 /* AppDelegate.h */,
+				F563D0AD1C008C1300138686 /* AppDelegate.m */,
+				F563D0AF1C008C1300138686 /* ViewController.h */,
+				F563D0B01C008C1300138686 /* ViewController.m */,
+				F563D0B21C008C1300138686 /* Main.storyboard */,
+				F563D0B51C008C1300138686 /* Assets.xcassets */,
+				F563D0B71C008C1300138686 /* LaunchScreen.storyboard */,
+				F563D0BA1C008C1300138686 /* Info.plist */,
+				F563D0A91C008C1300138686 /* Supporting Files */,
+				F563D0FE1C008F9E00138686 /* DDFlagPickerView.xib */,
+			);
+			path = 02_flagPickerView;
+			sourceTree = "<group>";
+		};
+		F563D0A91C008C1300138686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F563D1031C00932F00138686 /* flags.plist */,
+				F563D0DC1C008C9200138686 /* guoqi */,
+				F563D0AA1C008C1300138686 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F563D0C21C008C1300138686 /* 02_flagPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F563D0C31C008C1300138686 /* _2_flagPickerViewTests.m */,
+				F563D0C51C008C1300138686 /* Info.plist */,
+			);
+			path = 02_flagPickerViewTests;
+			sourceTree = "<group>";
+		};
+		F563D0CD1C008C1300138686 /* 02_flagPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F563D0CE1C008C1300138686 /* _2_flagPickerViewUITests.m */,
+				F563D0D01C008C1300138686 /* Info.plist */,
+			);
+			path = 02_flagPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		F563D0DC1C008C9200138686 /* guoqi */ = {
+			isa = PBXGroup;
+			children = (
+				F563D0DD1C008C9200138686 /* agt.gif */,
+				F563D0DE1C008C9200138686 /* baxi.gif */,
+				F563D0DF1C008C9200138686 /* deguo.gif */,
+				F563D0E01C008C9200138686 /* faguo.gif */,
+				F563D0E21C008C9200138686 /* hanguo.gif */,
+				F563D0E31C008C9200138686 /* helan.gif */,
+				F563D0E41C008C9200138686 /* putaoya.gif */,
+				F563D0E51C008C9200138686 /* ruidian.gif */,
+				F563D0E61C008C9200138686 /* ruishi.gif */,
+				F563D0E71C008C9200138686 /* wlgui.gif */,
+				F563D0E81C008C9200138686 /* xiby.gif */,
+				F563D0E91C008C9200138686 /* ydl.gif */,
+				F563D0EA1C008C9200138686 /* ying.gif */,
+				F563D0EB1C008C9200138686 /* zhongguo.jpg */,
+			);
+			path = guoqi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F563D0A51C008C1300138686 /* 02_flagPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F563D0D31C008C1300138686 /* Build configuration list for PBXNativeTarget "02_flagPickerView" */;
+			buildPhases = (
+				F563D0A21C008C1300138686 /* Sources */,
+				F563D0A31C008C1300138686 /* Frameworks */,
+				F563D0A41C008C1300138686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 02_flagPickerView;
+			productName = 02_flagPickerView;
+			productReference = F563D0A61C008C1300138686 /* 02_flagPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F563D0BE1C008C1300138686 /* 02_flagPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F563D0D61C008C1300138686 /* Build configuration list for PBXNativeTarget "02_flagPickerViewTests" */;
+			buildPhases = (
+				F563D0BB1C008C1300138686 /* Sources */,
+				F563D0BC1C008C1300138686 /* Frameworks */,
+				F563D0BD1C008C1300138686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F563D0C11C008C1300138686 /* PBXTargetDependency */,
+			);
+			name = 02_flagPickerViewTests;
+			productName = 02_flagPickerViewTests;
+			productReference = F563D0BF1C008C1300138686 /* 02_flagPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F563D0C91C008C1300138686 /* 02_flagPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F563D0D91C008C1300138686 /* Build configuration list for PBXNativeTarget "02_flagPickerViewUITests" */;
+			buildPhases = (
+				F563D0C61C008C1300138686 /* Sources */,
+				F563D0C71C008C1300138686 /* Frameworks */,
+				F563D0C81C008C1300138686 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F563D0CC1C008C1300138686 /* PBXTargetDependency */,
+			);
+			name = 02_flagPickerViewUITests;
+			productName = 02_flagPickerViewUITests;
+			productReference = F563D0CA1C008C1300138686 /* 02_flagPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F563D09E1C008C1300138686 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = private;
+				TargetAttributes = {
+					F563D0A51C008C1300138686 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+					};
+					F563D0BE1C008C1300138686 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+						TestTargetID = F563D0A51C008C1300138686;
+					};
+					F563D0C91C008C1300138686 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+						TestTargetID = F563D0A51C008C1300138686;
+					};
+				};
+			};
+			buildConfigurationList = F563D0A11C008C1300138686 /* Build configuration list for PBXProject "02_flagPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F563D09D1C008C1300138686;
+			productRefGroup = F563D0A71C008C1300138686 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F563D0A51C008C1300138686 /* 02_flagPickerView */,
+				F563D0BE1C008C1300138686 /* 02_flagPickerViewTests */,
+				F563D0C91C008C1300138686 /* 02_flagPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F563D0A41C008C1300138686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563D0B91C008C1300138686 /* LaunchScreen.storyboard in Resources */,
+				F563D0F11C008C9200138686 /* hanguo.gif in Resources */,
+				F563D0EE1C008C9200138686 /* deguo.gif in Resources */,
+				F563D0F21C008C9200138686 /* helan.gif in Resources */,
+				F563D0F81C008C9200138686 /* ydl.gif in Resources */,
+				F563D1041C00932F00138686 /* flags.plist in Resources */,
+				F563D0B61C008C1300138686 /* Assets.xcassets in Resources */,
+				F563D0ED1C008C9200138686 /* baxi.gif in Resources */,
+				F563D0FF1C008F9E00138686 /* DDFlagPickerView.xib in Resources */,
+				F563D0FA1C008C9200138686 /* zhongguo.jpg in Resources */,
+				F563D0F71C008C9200138686 /* xiby.gif in Resources */,
+				F563D0F91C008C9200138686 /* ying.gif in Resources */,
+				F563D0F61C008C9200138686 /* wlgui.gif in Resources */,
+				F563D0F31C008C9200138686 /* putaoya.gif in Resources */,
+				F563D0EF1C008C9200138686 /* faguo.gif in Resources */,
+				F563D0B41C008C1300138686 /* Main.storyboard in Resources */,
+				F563D0EC1C008C9200138686 /* agt.gif in Resources */,
+				F563D0F51C008C9200138686 /* ruishi.gif in Resources */,
+				F563D0F41C008C9200138686 /* ruidian.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F563D0BD1C008C1300138686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F563D0C81C008C1300138686 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F563D0A21C008C1300138686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563D0B11C008C1300138686 /* ViewController.m in Sources */,
+				F563D0FD1C008D8300138686 /* DDFlag.m in Sources */,
+				F563D0AE1C008C1300138686 /* AppDelegate.m in Sources */,
+				F563D1021C00908B00138686 /* DDFlagPickerView.m in Sources */,
+				F563D0AB1C008C1300138686 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F563D0BB1C008C1300138686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563D0C41C008C1300138686 /* _2_flagPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F563D0C61C008C1300138686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F563D0CF1C008C1300138686 /* _2_flagPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F563D0C11C008C1300138686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F563D0A51C008C1300138686 /* 02_flagPickerView */;
+			targetProxy = F563D0C01C008C1300138686 /* PBXContainerItemProxy */;
+		};
+		F563D0CC1C008C1300138686 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F563D0A51C008C1300138686 /* 02_flagPickerView */;
+			targetProxy = F563D0CB1C008C1300138686 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F563D0B21C008C1300138686 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F563D0B31C008C1300138686 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F563D0B71C008C1300138686 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F563D0B81C008C1300138686 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F563D0D11C008C1300138686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F563D0D21C008C1300138686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F563D0D41C008C1300138686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 02_flagPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-2-flagPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F563D0D51C008C1300138686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 02_flagPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-2-flagPickerView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F563D0D71C008C1300138686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 02_flagPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-2-flagPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02_flagPickerView.app/02_flagPickerView";
+			};
+			name = Debug;
+		};
+		F563D0D81C008C1300138686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 02_flagPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-2-flagPickerViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02_flagPickerView.app/02_flagPickerView";
+			};
+			name = Release;
+		};
+		F563D0DA1C008C1300138686 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 02_flagPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-2-flagPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 02_flagPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F563D0DB1C008C1300138686 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 02_flagPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-2-flagPickerViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 02_flagPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F563D0A11C008C1300138686 /* Build configuration list for PBXProject "02_flagPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F563D0D11C008C1300138686 /* Debug */,
+				F563D0D21C008C1300138686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F563D0D31C008C1300138686 /* Build configuration list for PBXNativeTarget "02_flagPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F563D0D41C008C1300138686 /* Debug */,
+				F563D0D51C008C1300138686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F563D0D61C008C1300138686 /* Build configuration list for PBXNativeTarget "02_flagPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F563D0D71C008C1300138686 /* Debug */,
+				F563D0D81C008C1300138686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F563D0D91C008C1300138686 /* Build configuration list for PBXNativeTarget "02_flagPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F563D0DA1C008C1300138686 /* Debug */,
+				F563D0DB1C008C1300138686 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F563D09E1C008C1300138686 /* Project object */;
+}
