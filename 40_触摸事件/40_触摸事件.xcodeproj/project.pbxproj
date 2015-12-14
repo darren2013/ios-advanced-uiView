@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54DB2CC1C1DA304004565FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2CB1C1DA304004565FA /* main.m */; };
+		F54DB2CF1C1DA304004565FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2CE1C1DA304004565FA /* AppDelegate.m */; };
+		F54DB2D21C1DA304004565FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2D11C1DA304004565FA /* ViewController.m */; };
+		F54DB2D51C1DA304004565FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB2D31C1DA304004565FA /* Main.storyboard */; };
+		F54DB2D71C1DA304004565FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54DB2D61C1DA304004565FA /* Assets.xcassets */; };
+		F54DB2DA1C1DA304004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB2D81C1DA304004565FA /* LaunchScreen.storyboard */; };
+		F54DB2E51C1DA304004565FA /* _0_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2E41C1DA304004565FA /* _0_____Tests.m */; };
+		F54DB2F01C1DA304004565FA /* _0_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2EF1C1DA304004565FA /* _0_____UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F54DB2E11C1DA304004565FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54DB2BF1C1DA304004565FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54DB2C61C1DA304004565FA;
+			remoteInfo = "40_触摸事件";
+		};
+		F54DB2EC1C1DA304004565FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54DB2BF1C1DA304004565FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54DB2C61C1DA304004565FA;
+			remoteInfo = "40_触摸事件";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F54DB2C71C1DA304004565FA /* 40_触摸事件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "40_触摸事件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54DB2CB1C1DA304004565FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F54DB2CD1C1DA304004565FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F54DB2CE1C1DA304004565FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F54DB2D01C1DA304004565FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F54DB2D11C1DA304004565FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F54DB2D41C1DA304004565FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F54DB2D61C1DA304004565FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54DB2D91C1DA304004565FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54DB2DB1C1DA304004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB2E01C1DA304004565FA /* 40_触摸事件Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "40_触摸事件Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54DB2E41C1DA304004565FA /* _0_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0_____Tests.m"; sourceTree = "<group>"; };
+		F54DB2E61C1DA304004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB2EB1C1DA304004565FA /* 40_触摸事件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "40_触摸事件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54DB2EF1C1DA304004565FA /* _0_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0_____UITests.m"; sourceTree = "<group>"; };
+		F54DB2F11C1DA304004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54DB2C41C1DA304004565FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54DB2DD1C1DA304004565FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54DB2E81C1DA304004565FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54DB2BE1C1DA304004565FA = {
+			isa = PBXGroup;
+			children = (
+				F54DB2C91C1DA304004565FA /* 40_触摸事件 */,
+				F54DB2E31C1DA304004565FA /* 40_触摸事件Tests */,
+				F54DB2EE1C1DA304004565FA /* 40_触摸事件UITests */,
+				F54DB2C81C1DA304004565FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54DB2C81C1DA304004565FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54DB2C71C1DA304004565FA /* 40_触摸事件.app */,
+				F54DB2E01C1DA304004565FA /* 40_触摸事件Tests.xctest */,
+				F54DB2EB1C1DA304004565FA /* 40_触摸事件UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54DB2C91C1DA304004565FA /* 40_触摸事件 */ = {
+			isa = PBXGroup;
+			children = (
+				F54DB2CD1C1DA304004565FA /* AppDelegate.h */,
+				F54DB2CE1C1DA304004565FA /* AppDelegate.m */,
+				F54DB2D01C1DA304004565FA /* ViewController.h */,
+				F54DB2D11C1DA304004565FA /* ViewController.m */,
+				F54DB2D31C1DA304004565FA /* Main.storyboard */,
+				F54DB2D61C1DA304004565FA /* Assets.xcassets */,
+				F54DB2D81C1DA304004565FA /* LaunchScreen.storyboard */,
+				F54DB2DB1C1DA304004565FA /* Info.plist */,
+				F54DB2CA1C1DA304004565FA /* Supporting Files */,
+			);
+			path = "40_触摸事件";
+			sourceTree = "<group>";
+		};
+		F54DB2CA1C1DA304004565FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F54DB2CB1C1DA304004565FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F54DB2E31C1DA304004565FA /* 40_触摸事件Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F54DB2E41C1DA304004565FA /* _0_____Tests.m */,
+				F54DB2E61C1DA304004565FA /* Info.plist */,
+			);
+			path = "40_触摸事件Tests";
+			sourceTree = "<group>";
+		};
+		F54DB2EE1C1DA304004565FA /* 40_触摸事件UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F54DB2EF1C1DA304004565FA /* _0_____UITests.m */,
+				F54DB2F11C1DA304004565FA /* Info.plist */,
+			);
+			path = "40_触摸事件UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54DB2C61C1DA304004565FA /* 40_触摸事件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54DB2F41C1DA304004565FA /* Build configuration list for PBXNativeTarget "40_触摸事件" */;
+			buildPhases = (
+				F54DB2C31C1DA304004565FA /* Sources */,
+				F54DB2C41C1DA304004565FA /* Frameworks */,
+				F54DB2C51C1DA304004565FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "40_触摸事件";
+			productName = "40_触摸事件";
+			productReference = F54DB2C71C1DA304004565FA /* 40_触摸事件.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F54DB2DF1C1DA304004565FA /* 40_触摸事件Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54DB2F71C1DA304004565FA /* Build configuration list for PBXNativeTarget "40_触摸事件Tests" */;
+			buildPhases = (
+				F54DB2DC1C1DA304004565FA /* Sources */,
+				F54DB2DD1C1DA304004565FA /* Frameworks */,
+				F54DB2DE1C1DA304004565FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54DB2E21C1DA304004565FA /* PBXTargetDependency */,
+			);
+			name = "40_触摸事件Tests";
+			productName = "40_触摸事件Tests";
+			productReference = F54DB2E01C1DA304004565FA /* 40_触摸事件Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F54DB2EA1C1DA304004565FA /* 40_触摸事件UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54DB2FA1C1DA304004565FA /* Build configuration list for PBXNativeTarget "40_触摸事件UITests" */;
+			buildPhases = (
+				F54DB2E71C1DA304004565FA /* Sources */,
+				F54DB2E81C1DA304004565FA /* Frameworks */,
+				F54DB2E91C1DA304004565FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54DB2ED1C1DA304004565FA /* PBXTargetDependency */,
+			);
+			name = "40_触摸事件UITests";
+			productName = "40_触摸事件UITests";
+			productReference = F54DB2EB1C1DA304004565FA /* 40_触摸事件UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54DB2BF1C1DA304004565FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = private;
+				TargetAttributes = {
+					F54DB2C61C1DA304004565FA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+					};
+					F54DB2DF1C1DA304004565FA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+						TestTargetID = F54DB2C61C1DA304004565FA;
+					};
+					F54DB2EA1C1DA304004565FA = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+						TestTargetID = F54DB2C61C1DA304004565FA;
+					};
+				};
+			};
+			buildConfigurationList = F54DB2C21C1DA304004565FA /* Build configuration list for PBXProject "40_触摸事件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54DB2BE1C1DA304004565FA;
+			productRefGroup = F54DB2C81C1DA304004565FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54DB2C61C1DA304004565FA /* 40_触摸事件 */,
+				F54DB2DF1C1DA304004565FA /* 40_触摸事件Tests */,
+				F54DB2EA1C1DA304004565FA /* 40_触摸事件UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54DB2C51C1DA304004565FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54DB2DA1C1DA304004565FA /* LaunchScreen.storyboard in Resources */,
+				F54DB2D71C1DA304004565FA /* Assets.xcassets in Resources */,
+				F54DB2D51C1DA304004565FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54DB2DE1C1DA304004565FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54DB2E91C1DA304004565FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54DB2C31C1DA304004565FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54DB2D21C1DA304004565FA /* ViewController.m in Sources */,
+				F54DB2CF1C1DA304004565FA /* AppDelegate.m in Sources */,
+				F54DB2CC1C1DA304004565FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54DB2DC1C1DA304004565FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54DB2E51C1DA304004565FA /* _0_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54DB2E71C1DA304004565FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54DB2F01C1DA304004565FA /* _0_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F54DB2E21C1DA304004565FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54DB2C61C1DA304004565FA /* 40_触摸事件 */;
+			targetProxy = F54DB2E11C1DA304004565FA /* PBXContainerItemProxy */;
+		};
+		F54DB2ED1C1DA304004565FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54DB2C61C1DA304004565FA /* 40_触摸事件 */;
+			targetProxy = F54DB2EC1C1DA304004565FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F54DB2D31C1DA304004565FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54DB2D41C1DA304004565FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F54DB2D81C1DA304004565FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54DB2D91C1DA304004565FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54DB2F21C1DA304004565FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F54DB2F31C1DA304004565FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54DB2F51C1DA304004565FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "40_触摸事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-0-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F54DB2F61C1DA304004565FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "40_触摸事件/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-0-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F54DB2F81C1DA304004565FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "40_触摸事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-0-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/40_触摸事件.app/40_触摸事件";
+			};
+			name = Debug;
+		};
+		F54DB2F91C1DA304004565FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "40_触摸事件Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-0-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/40_触摸事件.app/40_触摸事件";
+			};
+			name = Release;
+		};
+		F54DB2FB1C1DA304004565FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "40_触摸事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-0-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "40_触摸事件";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F54DB2FC1C1DA304004565FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "40_触摸事件UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-0-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "40_触摸事件";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54DB2C21C1DA304004565FA /* Build configuration list for PBXProject "40_触摸事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54DB2F21C1DA304004565FA /* Debug */,
+				F54DB2F31C1DA304004565FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54DB2F41C1DA304004565FA /* Build configuration list for PBXNativeTarget "40_触摸事件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54DB2F51C1DA304004565FA /* Debug */,
+				F54DB2F61C1DA304004565FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F54DB2F71C1DA304004565FA /* Build configuration list for PBXNativeTarget "40_触摸事件Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54DB2F81C1DA304004565FA /* Debug */,
+				F54DB2F91C1DA304004565FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F54DB2FA1C1DA304004565FA /* Build configuration list for PBXNativeTarget "40_触摸事件UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54DB2FB1C1DA304004565FA /* Debug */,
+				F54DB2FC1C1DA304004565FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54DB2BF1C1DA304004565FA /* Project object */;
+}
