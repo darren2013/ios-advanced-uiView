@@ -19,13 +19,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"Home_refresh_bg"]];
+    
     DDGestureLockView *lockView = [[DDGestureLockView alloc] init];
     lockView.delegate = self;
     
     CGFloat screenW = [UIScreen mainScreen].bounds.size.width;
     
     lockView.bounds = CGRectMake(0, 0, screenW, screenW);
-    lockView.backgroundColor = [UIColor grayColor];
+    lockView.backgroundColor = [UIColor clearColor];
     //放到中间位置
     lockView.center = self.view.center;
     [self.view addSubview:lockView];

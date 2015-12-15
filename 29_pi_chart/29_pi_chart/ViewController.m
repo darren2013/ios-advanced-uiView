@@ -22,7 +22,7 @@
     
     
     piChart.frame = CGRectMake(50, 60, 200, 200);
-    piChart.backgroundColor = [UIColor whiteColor];
+     piChart.backgroundColor = [UIColor clearColor];
     
     piChart.sections = @[@20.3,@40.5,@123.5,@66,@89.5];
     piChart.colors = @[[UIColor redColor],[UIColor greenColor],[UIColor blueColor],[UIColor yellowColor],[UIColor blackColor]];
