@@ -13,5 +13,6 @@
 +(UIImage *)waterImageWithBackgroundImageName:(NSString *)groundImageName waterImageName:(NSString *) waterImageName scale:(CGFloat)scale;
 
 
++(UIImage *)circleImageWithImageName:(NSString *)imageName borderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth;
 
 @end

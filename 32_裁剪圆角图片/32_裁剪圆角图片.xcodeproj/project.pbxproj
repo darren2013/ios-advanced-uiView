@@ -15,6 +15,7 @@
 		F54DB0CE1C1BD0FA004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB0CC1C1BD0FA004565FA /* LaunchScreen.storyboard */; };
 		F54DB0D91C1BD0FA004565FA /* _2_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB0D81C1BD0FA004565FA /* _2_______Tests.m */; };
 		F54DB0E41C1BD0FA004565FA /* _2_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB0E31C1BD0FA004565FA /* _2_______UITests.m */; };
+		F54DB0F31C1BD12A004565FA /* DDCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB0F21C1BD12A004565FA /* DDCircleView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54DB0DF1C1BD0FA004565FA /* 32_裁剪圆角图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "32_裁剪圆角图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB0E31C1BD0FA004565FA /* _2_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_______UITests.m"; sourceTree = "<group>"; };
 		F54DB0E51C1BD0FA004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB0F11C1BD12A004565FA /* DDCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCircleView.h; sourceTree = "<group>"; };
+		F54DB0F21C1BD12A004565FA /* DDCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54DB0CC1C1BD0FA004565FA /* LaunchScreen.storyboard */,
 				F54DB0CF1C1BD0FA004565FA /* Info.plist */,
 				F54DB0BE1C1BD0FA004565FA /* Supporting Files */,
+				F54DB0F11C1BD12A004565FA /* DDCircleView.h */,
+				F54DB0F21C1BD12A004565FA /* DDCircleView.m */,
 			);
 			path = "32_裁剪圆角图片";
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				F54DB0C61C1BD0FA004565FA /* ViewController.m in Sources */,
 				F54DB0C31C1BD0FA004565FA /* AppDelegate.m in Sources */,
+				F54DB0F31C1BD12A004565FA /* DDCircleView.m in Sources */,
 				F54DB0C01C1BD0FA004565FA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

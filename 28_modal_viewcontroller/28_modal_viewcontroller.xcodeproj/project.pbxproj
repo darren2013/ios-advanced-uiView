@@ -15,6 +15,7 @@
 		F54932811C186F0A00F68392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F549327F1C186F0A00F68392 /* LaunchScreen.storyboard */; };
 		F549328C1C186F0A00F68392 /* _8_modal_viewcontrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F549328B1C186F0A00F68392 /* _8_modal_viewcontrollerTests.m */; };
 		F54932971C186F0A00F68392 /* _8_modal_viewcontrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932961C186F0A00F68392 /* _8_modal_viewcontrollerUITests.m */; };
+		F54932A61C1870F000F68392 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932A51C1870F000F68392 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54932921C186F0A00F68392 /* 28_modal_viewcontrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 28_modal_viewcontrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54932961C186F0A00F68392 /* _8_modal_viewcontrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8_modal_viewcontrollerUITests.m; sourceTree = "<group>"; };
 		F54932981C186F0A00F68392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54932A41C1870F000F68392 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		F54932A51C1870F000F68392 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F549327F1C186F0A00F68392 /* LaunchScreen.storyboard */,
 				F54932821C186F0A00F68392 /* Info.plist */,
 				F54932711C186F0A00F68392 /* Supporting Files */,
+				F54932A41C1870F000F68392 /* RegisterViewController.h */,
+				F54932A51C1870F000F68392 /* RegisterViewController.m */,
 			);
 			path = 28_modal_viewcontroller;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				F54932791C186F0A00F68392 /* ViewController.m in Sources */,
 				F54932761C186F0A00F68392 /* AppDelegate.m in Sources */,
 				F54932731C186F0A00F68392 /* main.m in Sources */,
+				F54932A61C1870F000F68392 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

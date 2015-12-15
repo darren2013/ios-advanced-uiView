@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F5938C1D1C1ECB1C001FF069 /* UIImage+DD.m in Sources */ = {isa = PBXBuildFile; fileRef = F5938C1C1C1ECB1C001FF069 /* UIImage+DD.m */; settings = {ASSET_TAGS = (); }; };
 		F5EE7A921C1EB39000B051FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7A911C1EB39000B051FD /* main.m */; };
 		F5EE7A951C1EB39000B051FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7A941C1EB39000B051FD /* AppDelegate.m */; };
 		F5EE7A981C1EB39000B051FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7A971C1EB39000B051FD /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		F5EE7AA01C1EB39000B051FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EE7A9E1C1EB39000B051FD /* LaunchScreen.storyboard */; };
 		F5EE7AAB1C1EB39000B051FD /* _2________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7AAA1C1EB39000B051FD /* _2________Tests.m */; };
 		F5EE7AB61C1EB39000B051FD /* _2________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7AB51C1EB39000B051FD /* _2________UITests.m */; };
+		F5EE7AC51C1EB40300B051FD /* DDPainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7AC41C1EB40300B051FD /* DDPainterView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F5938C1B1C1ECB1C001FF069 /* UIImage+DD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DD.h"; sourceTree = "<group>"; };
+		F5938C1C1C1ECB1C001FF069 /* UIImage+DD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DD.m"; sourceTree = "<group>"; };
 		F5EE7A8D1C1EB39000B051FD /* 42_涂鸦_画多条线.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "42_涂鸦_画多条线.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EE7A911C1EB39000B051FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5EE7A931C1EB39000B051FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		F5EE7AB11C1EB39000B051FD /* 42_涂鸦_画多条线UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "42_涂鸦_画多条线UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EE7AB51C1EB39000B051FD /* _2________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2________UITests.m"; sourceTree = "<group>"; };
 		F5EE7AB71C1EB39000B051FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EE7AC31C1EB40300B051FD /* DDPainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPainterView.h; sourceTree = "<group>"; };
+		F5EE7AC41C1EB40300B051FD /* DDPainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPainterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		F5EE7A8F1C1EB39000B051FD /* 42_涂鸦_画多条线 */ = {
 			isa = PBXGroup;
 			children = (
+				F5938C1B1C1ECB1C001FF069 /* UIImage+DD.h */,
+				F5938C1C1C1ECB1C001FF069 /* UIImage+DD.m */,
 				F5EE7A931C1EB39000B051FD /* AppDelegate.h */,
 				F5EE7A941C1EB39000B051FD /* AppDelegate.m */,
 				F5EE7A961C1EB39000B051FD /* ViewController.h */,
@@ -110,6 +118,8 @@
 				F5EE7A9E1C1EB39000B051FD /* LaunchScreen.storyboard */,
 				F5EE7AA11C1EB39000B051FD /* Info.plist */,
 				F5EE7A901C1EB39000B051FD /* Supporting Files */,
+				F5EE7AC31C1EB40300B051FD /* DDPainterView.h */,
+				F5EE7AC41C1EB40300B051FD /* DDPainterView.m */,
 			);
 			path = "42_涂鸦_画多条线";
 			sourceTree = "<group>";
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EE7AC51C1EB40300B051FD /* DDPainterView.m in Sources */,
 				F5EE7A981C1EB39000B051FD /* ViewController.m in Sources */,
 				F5EE7A951C1EB39000B051FD /* AppDelegate.m in Sources */,
+				F5938C1D1C1ECB1C001FF069 /* UIImage+DD.m in Sources */,
 				F5EE7A921C1EB39000B051FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +511,7 @@
 				F5EE7ABC1C1EB39000B051FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5EE7ABD1C1EB39000B051FD /* Build configuration list for PBXNativeTarget "42_涂鸦_画多条线Tests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +520,7 @@
 				F5EE7ABF1C1EB39000B051FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5EE7AC01C1EB39000B051FD /* Build configuration list for PBXNativeTarget "42_涂鸦_画多条线UITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +529,7 @@
 				F5EE7AC21C1EB39000B051FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

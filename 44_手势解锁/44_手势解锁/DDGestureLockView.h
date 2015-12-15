@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+@class DDGestureLockView;
+
+@protocol DDGestureLockView <NSObject>
+
+-(void)gestureLockView:(DDGestureLockView *)view withPassword:(NSString *)password;
+
+@end
+
 
 @interface DDGestureLockView : UIView
+
+@property(nonatomic,weak)id<DDGestureLockView> delegate;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DDCustomView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    DDCustomView *view = [[DDCustomView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    view.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {

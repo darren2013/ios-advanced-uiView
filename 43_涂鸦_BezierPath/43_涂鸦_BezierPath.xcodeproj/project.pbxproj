@@ -15,6 +15,7 @@
 		F5938C3A1C1F0023001FF069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5938C381C1F0023001FF069 /* LaunchScreen.storyboard */; };
 		F5938C451C1F0023001FF069 /* _3____BezierPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5938C441C1F0023001FF069 /* _3____BezierPathTests.m */; };
 		F5938C501C1F0023001FF069 /* _3____BezierPathUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5938C4F1C1F0023001FF069 /* _3____BezierPathUITests.m */; };
+		F5938C5F1C1F0045001FF069 /* DDPainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5938C5E1C1F0045001FF069 /* DDPainterView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F5938C4B1C1F0023001FF069 /* 43_涂鸦_BezierPathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "43_涂鸦_BezierPathUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5938C4F1C1F0023001FF069 /* _3____BezierPathUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3____BezierPathUITests.m"; sourceTree = "<group>"; };
 		F5938C511C1F0023001FF069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5938C5D1C1F0045001FF069 /* DDPainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPainterView.h; sourceTree = "<group>"; };
+		F5938C5E1C1F0045001FF069 /* DDPainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPainterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F5938C381C1F0023001FF069 /* LaunchScreen.storyboard */,
 				F5938C3B1C1F0023001FF069 /* Info.plist */,
 				F5938C2A1C1F0023001FF069 /* Supporting Files */,
+				F5938C5D1C1F0045001FF069 /* DDPainterView.h */,
+				F5938C5E1C1F0045001FF069 /* DDPainterView.m */,
 			);
 			path = "43_涂鸦_BezierPath";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5938C5F1C1F0045001FF069 /* DDPainterView.m in Sources */,
 				F5938C321C1F0023001FF069 /* ViewController.m in Sources */,
 				F5938C2F1C1F0023001FF069 /* AppDelegate.m in Sources */,
 				F5938C2C1C1F0023001FF069 /* main.m in Sources */,

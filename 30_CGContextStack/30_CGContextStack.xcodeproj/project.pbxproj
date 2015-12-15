@@ -15,6 +15,7 @@
 		F54DB04A1C1BC2D3004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB0481C1BC2D3004565FA /* LaunchScreen.storyboard */; };
 		F54DB0551C1BC2D4004565FA /* _0_CGContextStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB0541C1BC2D4004565FA /* _0_CGContextStackTests.m */; };
 		F54DB0601C1BC2D4004565FA /* _0_CGContextStackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB05F1C1BC2D4004565FA /* _0_CGContextStackUITests.m */; };
+		F54DB06F1C1BC2F8004565FA /* DDCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB06E1C1BC2F8004565FA /* DDCustomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54DB05B1C1BC2D4004565FA /* 30_CGContextStackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 30_CGContextStackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB05F1C1BC2D4004565FA /* _0_CGContextStackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0_CGContextStackUITests.m; sourceTree = "<group>"; };
 		F54DB0611C1BC2D4004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB06D1C1BC2F8004565FA /* DDCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCustomView.h; sourceTree = "<group>"; };
+		F54DB06E1C1BC2F8004565FA /* DDCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54DB0481C1BC2D3004565FA /* LaunchScreen.storyboard */,
 				F54DB04B1C1BC2D3004565FA /* Info.plist */,
 				F54DB03A1C1BC2D3004565FA /* Supporting Files */,
+				F54DB06D1C1BC2F8004565FA /* DDCustomView.h */,
+				F54DB06E1C1BC2F8004565FA /* DDCustomView.m */,
 			);
 			path = 30_CGContextStack;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				F54DB0421C1BC2D3004565FA /* ViewController.m in Sources */,
 				F54DB03F1C1BC2D3004565FA /* AppDelegate.m in Sources */,
 				F54DB03C1C1BC2D3004565FA /* main.m in Sources */,
+				F54DB06F1C1BC2F8004565FA /* DDCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

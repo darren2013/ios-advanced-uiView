@@ -15,4 +15,8 @@
 
 +(UIImage *)circleImageWithImageName:(NSString *)imageName borderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth;
 
+
++(UIImage *)captureImageOnView:(UIView *)view;
+
+
 @end

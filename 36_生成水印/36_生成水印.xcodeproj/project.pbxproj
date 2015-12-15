@@ -15,6 +15,7 @@
 		F54DB1D61C1C6589004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB1D41C1C6589004565FA /* LaunchScreen.storyboard */; };
 		F54DB1E11C1C6589004565FA /* _6_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1E01C1C6589004565FA /* _6_____Tests.m */; };
 		F54DB1EC1C1C6589004565FA /* _6_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1EB1C1C6589004565FA /* _6_____UITests.m */; };
+		F54DB23A1C1C7A53004565FA /* UIImage+DD.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2391C1C7A53004565FA /* UIImage+DD.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54DB1E71C1C6589004565FA /* 36_生成水印UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "36_生成水印UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB1EB1C1C6589004565FA /* _6_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_6_____UITests.m"; sourceTree = "<group>"; };
 		F54DB1ED1C1C658A004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB2381C1C7A53004565FA /* UIImage+DD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DD.h"; sourceTree = "<group>"; };
+		F54DB2391C1C7A53004565FA /* UIImage+DD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DD.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54DB1D41C1C6589004565FA /* LaunchScreen.storyboard */,
 				F54DB1D71C1C6589004565FA /* Info.plist */,
 				F54DB1C61C1C6589004565FA /* Supporting Files */,
+				F54DB2381C1C7A53004565FA /* UIImage+DD.h */,
+				F54DB2391C1C7A53004565FA /* UIImage+DD.m */,
 			);
 			path = "36_生成水印";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				F54DB1CE1C1C6589004565FA /* ViewController.m in Sources */,
 				F54DB1CB1C1C6589004565FA /* AppDelegate.m in Sources */,
 				F54DB1C81C1C6589004565FA /* main.m in Sources */,
+				F54DB23A1C1C7A53004565FA /* UIImage+DD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

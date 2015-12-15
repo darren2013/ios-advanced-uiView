@@ -7,8 +7,10 @@
 //
 
 #import "RegisterViewController.h"
+#import "AppDelegate.h"
 
 @interface RegisterViewController ()
+- (IBAction)back:(UIBarButtonItem *)sender;
 
 @end
 
@@ -95,4 +97,15 @@
 }
 */
 
+- (IBAction)back:(UIBarButtonItem *)sender {
+    
+    //返回模态控制器
+    [self dismissViewControllerAnimated:YES completion:^{
+        NSLog(@"dismiss view controller");
+        
+        AppDelegate *delegate = [UIApplication sharedApplication].delegate;
+        
+        NSLog(@"%@",delegate.window.subviews);
+    }];
+}
 @end

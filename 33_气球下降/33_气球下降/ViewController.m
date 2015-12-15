@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DDBallonView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    DDBallonView *ballonView = [[DDBallonView alloc] init];
+    ballonView.frame = self.view.bounds;
+    ballonView.backgroundColor = [UIColor grayColor];
+    
+    [self.view addSubview:ballonView];
 }
 
 - (void)didReceiveMemoryWarning {

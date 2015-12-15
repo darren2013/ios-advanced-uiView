@@ -15,6 +15,7 @@
 		F54DB1101C1BFA70004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB10E1C1BFA70004565FA /* LaunchScreen.storyboard */; };
 		F54DB11B1C1BFA70004565FA /* _3_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB11A1C1BFA70004565FA /* _3_____Tests.m */; };
 		F54DB1261C1BFA70004565FA /* _3_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1251C1BFA70004565FA /* _3_____UITests.m */; };
+		F54DB1351C1BFA9C004565FA /* DDBallonView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1341C1BFA9C004565FA /* DDBallonView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54DB1211C1BFA70004565FA /* 33_气球下降UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "33_气球下降UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB1251C1BFA70004565FA /* _3_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_3_____UITests.m"; sourceTree = "<group>"; };
 		F54DB1271C1BFA70004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB1331C1BFA9C004565FA /* DDBallonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDBallonView.h; sourceTree = "<group>"; };
+		F54DB1341C1BFA9C004565FA /* DDBallonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDBallonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54DB10E1C1BFA70004565FA /* LaunchScreen.storyboard */,
 				F54DB1111C1BFA70004565FA /* Info.plist */,
 				F54DB1001C1BFA70004565FA /* Supporting Files */,
+				F54DB1331C1BFA9C004565FA /* DDBallonView.h */,
+				F54DB1341C1BFA9C004565FA /* DDBallonView.m */,
 			);
 			path = "33_气球下降";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54DB1351C1BFA9C004565FA /* DDBallonView.m in Sources */,
 				F54DB1081C1BFA70004565FA /* ViewController.m in Sources */,
 				F54DB1051C1BFA70004565FA /* AppDelegate.m in Sources */,
 				F54DB1021C1BFA70004565FA /* main.m in Sources */,

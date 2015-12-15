@@ -7,8 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "DDPainterView.h"
+#import "UIImage+DD.h"
 
 @interface ViewController ()
+- (IBAction)back;
+- (IBAction)save;
+
+@property (weak, nonatomic) IBOutlet DDPainterView *painterView;
+
+- (IBAction)clear;
+
+- (IBAction)colorBtnClicked:(id)sender;
+
 
 @end
 
@@ -23,5 +34,27 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)back {
+    [self.painterView back];
+}
+
+- (IBAction)save {
+    UIImage *image = [UIImage captureImageOnView:self.painterView];
+    
+    NSData *imageData = UIImagePNGRepresentation(image);
+    [imageData writeToFile:@"/Users/darrendu/paintCapture.png" atomically:YES];
+}
+
+- (IBAction)clear {
+    [self.painterView clear];
+}
+
+- (IBAction)colorBtnClicked:(id)sender {
+    UIButton *btn = (UIButton*)sender;
+    
+    self.painterView.currentColor = btn.backgroundColor;
+}
+
 
 @end

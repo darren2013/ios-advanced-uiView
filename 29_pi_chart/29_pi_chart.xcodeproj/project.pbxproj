@@ -15,6 +15,7 @@
 		F54932C31C195FAE00F68392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54932C11C195FAE00F68392 /* LaunchScreen.storyboard */; };
 		F54932CE1C195FAE00F68392 /* _9_pi_chartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932CD1C195FAE00F68392 /* _9_pi_chartTests.m */; };
 		F54932D91C195FAE00F68392 /* _9_pi_chartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932D81C195FAE00F68392 /* _9_pi_chartUITests.m */; };
+		F54932E81C195FE900F68392 /* PiChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932E71C195FE900F68392 /* PiChartView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54932D41C195FAE00F68392 /* 29_pi_chartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 29_pi_chartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54932D81C195FAE00F68392 /* _9_pi_chartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9_pi_chartUITests.m; sourceTree = "<group>"; };
 		F54932DA1C195FAE00F68392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54932E61C195FE900F68392 /* PiChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiChartView.h; sourceTree = "<group>"; };
+		F54932E71C195FE900F68392 /* PiChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54932C11C195FAE00F68392 /* LaunchScreen.storyboard */,
 				F54932C41C195FAE00F68392 /* Info.plist */,
 				F54932B31C195FAE00F68392 /* Supporting Files */,
+				F54932E61C195FE900F68392 /* PiChartView.h */,
+				F54932E71C195FE900F68392 /* PiChartView.m */,
 			);
 			path = 29_pi_chart;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				F54932BB1C195FAE00F68392 /* ViewController.m in Sources */,
 				F54932B81C195FAE00F68392 /* AppDelegate.m in Sources */,
+				F54932E81C195FE900F68392 /* PiChartView.m in Sources */,
 				F54932B51C195FAE00F68392 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

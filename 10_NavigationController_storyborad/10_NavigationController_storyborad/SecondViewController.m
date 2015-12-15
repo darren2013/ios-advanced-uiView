@@ -13,7 +13,7 @@
 - (IBAction)back;
 @end
 
-//返回上一个控制器只能通过代码的方式，不能通过练习的方式
+//返回上一个控制器只能通过代码的方式，不能通过连线的方式
 @implementation SecondViewController
 
 - (void)viewDidLoad {

@@ -15,6 +15,7 @@
 		F54DB1521C1C217D004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB1501C1C217D004565FA /* LaunchScreen.storyboard */; };
 		F54DB15D1C1C217D004565FA /* _4______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB15C1C1C217D004565FA /* _4______Tests.m */; };
 		F54DB1681C1C217D004565FA /* _4______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1671C1C217D004565FA /* _4______UITests.m */; };
+		F54DB1771C1C21B0004565FA /* DDCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1761C1C21B0004565FA /* DDCustomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54DB1631C1C217D004565FA /* 34_多气球上升UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "34_多气球上升UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB1671C1C217D004565FA /* _4______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4______UITests.m"; sourceTree = "<group>"; };
 		F54DB1691C1C217D004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB1751C1C21B0004565FA /* DDCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCustomView.h; sourceTree = "<group>"; };
+		F54DB1761C1C21B0004565FA /* DDCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54DB1501C1C217D004565FA /* LaunchScreen.storyboard */,
 				F54DB1531C1C217D004565FA /* Info.plist */,
 				F54DB1421C1C217D004565FA /* Supporting Files */,
+				F54DB1751C1C21B0004565FA /* DDCustomView.h */,
+				F54DB1761C1C21B0004565FA /* DDCustomView.m */,
 			);
 			path = "34_多气球上升";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				F54DB14A1C1C217D004565FA /* ViewController.m in Sources */,
 				F54DB1471C1C217D004565FA /* AppDelegate.m in Sources */,
 				F54DB1441C1C217D004565FA /* main.m in Sources */,
+				F54DB1771C1C21B0004565FA /* DDCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

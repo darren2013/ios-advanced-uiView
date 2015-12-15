@@ -15,6 +15,7 @@
 		F54DB2DA1C1DA304004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB2D81C1DA304004565FA /* LaunchScreen.storyboard */; };
 		F54DB2E51C1DA304004565FA /* _0_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2E41C1DA304004565FA /* _0_____Tests.m */; };
 		F54DB2F01C1DA304004565FA /* _0_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2EF1C1DA304004565FA /* _0_____UITests.m */; };
+		F54DB2FF1C1DA332004565FA /* DDCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB2FE1C1DA332004565FA /* DDCustomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54DB2EB1C1DA304004565FA /* 40_触摸事件UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "40_触摸事件UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB2EF1C1DA304004565FA /* _0_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0_____UITests.m"; sourceTree = "<group>"; };
 		F54DB2F11C1DA304004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB2FD1C1DA332004565FA /* DDCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCustomView.h; sourceTree = "<group>"; };
+		F54DB2FE1C1DA332004565FA /* DDCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54DB2D81C1DA304004565FA /* LaunchScreen.storyboard */,
 				F54DB2DB1C1DA304004565FA /* Info.plist */,
 				F54DB2CA1C1DA304004565FA /* Supporting Files */,
+				F54DB2FD1C1DA332004565FA /* DDCustomView.h */,
+				F54DB2FE1C1DA332004565FA /* DDCustomView.m */,
 			);
 			path = "40_触摸事件";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				F54DB2D21C1DA304004565FA /* ViewController.m in Sources */,
 				F54DB2CF1C1DA304004565FA /* AppDelegate.m in Sources */,
 				F54DB2CC1C1DA304004565FA /* main.m in Sources */,
+				F54DB2FF1C1DA332004565FA /* DDCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

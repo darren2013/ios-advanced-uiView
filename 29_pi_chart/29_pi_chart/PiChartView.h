@@ -10,4 +10,8 @@
 
 @interface PiChartView : UIView
 
+@property(nonatomic,strong)NSArray *sections;
+@property(nonatomic,strong)NSArray *colors;
+
+
 @end

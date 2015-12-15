@@ -15,6 +15,7 @@
 		F54DB1941C1C57AF004565FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54DB1921C1C57AF004565FA /* LaunchScreen.storyboard */; };
 		F54DB19F1C1C57B0004565FA /* _5_UIKit__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB19E1C1C57B0004565FA /* _5_UIKit__Tests.m */; };
 		F54DB1AA1C1C57B0004565FA /* _5_UIKit__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1A91C1C57B0004565FA /* _5_UIKit__UITests.m */; };
+		F54DB1B91C1C57D2004565FA /* DDCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54DB1B81C1C57D2004565FA /* DDCustomView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54DB1A51C1C57B0004565FA /* 35_UIKit使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "35_UIKit使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54DB1A91C1C57B0004565FA /* _5_UIKit__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_UIKit__UITests.m; sourceTree = "<group>"; };
 		F54DB1AB1C1C57B0004565FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54DB1B71C1C57D2004565FA /* DDCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDCustomView.h; sourceTree = "<group>"; };
+		F54DB1B81C1C57D2004565FA /* DDCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDCustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54DB1921C1C57AF004565FA /* LaunchScreen.storyboard */,
 				F54DB1951C1C57AF004565FA /* Info.plist */,
 				F54DB1841C1C57AF004565FA /* Supporting Files */,
+				F54DB1B71C1C57D2004565FA /* DDCustomView.h */,
+				F54DB1B81C1C57D2004565FA /* DDCustomView.m */,
 			);
 			path = "35_UIKit使用";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				F54DB18C1C1C57AF004565FA /* ViewController.m in Sources */,
 				F54DB1891C1C57AF004565FA /* AppDelegate.m in Sources */,
 				F54DB1861C1C57AF004565FA /* main.m in Sources */,
+				F54DB1B91C1C57D2004565FA /* DDCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

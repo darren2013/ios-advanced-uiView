@@ -95,6 +95,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+//获取当前正在激活的输入框
 -(NSInteger)indexOfFirstResponder{
     
     for (UITextField *textField in self.uiTextFields) {

@@ -53,6 +53,12 @@
         [self loginOnClicked];
     }
     
+     NSLog(@"viewDidLoad:%@",[UIApplication sharedApplication].windows);
+    
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    NSLog(@"viewDidAppear:%@",[UIApplication sharedApplication].windows);
 }
 
 -(void)dealloc{
@@ -94,7 +100,7 @@
 }
 - (IBAction)loginOnClicked {
     
-    //[MBProgressHUD showMessage:@"正在加载中....."];
+    [MBProgressHUD showMessage:@"正在加载中....."];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         if ([self.accountTextField.text isEqualToString:@"admin"] && [self.pwdTextField.text isEqualToString:@"admin"]) {

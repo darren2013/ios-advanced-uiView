@@ -15,6 +15,7 @@
 		F54931371C15CCB000F68392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54931351C15CCB000F68392 /* LaunchScreen.storyboard */; };
 		F54931421C15CCB000F68392 /* _3_drawline_with_quartz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54931411C15CCB000F68392 /* _3_drawline_with_quartz2DTests.m */; };
 		F549314D1C15CCB000F68392 /* _3_drawline_with_quartz2DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F549314C1C15CCB000F68392 /* _3_drawline_with_quartz2DUITests.m */; };
+		F549315C1C15CCDC00F68392 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = F549315B1C15CCDC00F68392 /* LineView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54931481C15CCB000F68392 /* 23_drawline_with_quartz2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 23_drawline_with_quartz2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F549314C1C15CCB000F68392 /* _3_drawline_with_quartz2DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_drawline_with_quartz2DUITests.m; sourceTree = "<group>"; };
 		F549314E1C15CCB000F68392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F549315A1C15CCDC00F68392 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		F549315B1C15CCDC00F68392 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54931351C15CCB000F68392 /* LaunchScreen.storyboard */,
 				F54931381C15CCB000F68392 /* Info.plist */,
 				F54931271C15CCB000F68392 /* Supporting Files */,
+				F549315A1C15CCDC00F68392 /* LineView.h */,
+				F549315B1C15CCDC00F68392 /* LineView.m */,
 			);
 			path = 23_drawline_with_quartz2D;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F549315C1C15CCDC00F68392 /* LineView.m in Sources */,
 				F549312F1C15CCB000F68392 /* ViewController.m in Sources */,
 				F549312C1C15CCB000F68392 /* AppDelegate.m in Sources */,
 				F54931291C15CCB000F68392 /* main.m in Sources */,

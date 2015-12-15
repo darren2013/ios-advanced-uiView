@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "DDGestureLockView.h"
 
-@interface ViewController ()
+@interface ViewController ()<DDGestureLockView>
 
 @end
 
@@ -17,11 +18,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    DDGestureLockView *lockView = [[DDGestureLockView alloc] init];
+    lockView.delegate = self;
+    
+    CGFloat screenW = [UIScreen mainScreen].bounds.size.width;
+    
+    lockView.bounds = CGRectMake(0, 0, screenW, screenW);
+    lockView.backgroundColor = [UIColor grayColor];
+    //放到中间位置
+    lockView.center = self.view.center;
+    [self.view addSubview:lockView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)gestureLockView:(DDGestureLockView *)view withPassword:(NSString *)password{
+    if ([@"01234" isEqualToString:password]) {
+        NSLog(@"passoword match,can go in");
+    }else{
+        NSLog(@"password incorrect,can't go in");
+    }
 }
 
 @end

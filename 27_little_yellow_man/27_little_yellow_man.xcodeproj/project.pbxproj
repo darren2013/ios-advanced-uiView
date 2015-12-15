@@ -15,6 +15,7 @@
 		F549323F1C18408700F68392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F549323D1C18408700F68392 /* LaunchScreen.storyboard */; };
 		F549324A1C18408700F68392 /* _7_little_yellow_manTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932491C18408700F68392 /* _7_little_yellow_manTests.m */; };
 		F54932551C18408700F68392 /* _7_little_yellow_manUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932541C18408700F68392 /* _7_little_yellow_manUITests.m */; };
+		F54932641C1840D500F68392 /* LittleYellowKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932631C1840D500F68392 /* LittleYellowKitView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54932501C18408700F68392 /* 27_little_yellow_manUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 27_little_yellow_manUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54932541C18408700F68392 /* _7_little_yellow_manUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _7_little_yellow_manUITests.m; sourceTree = "<group>"; };
 		F54932561C18408700F68392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54932621C1840D500F68392 /* LittleYellowKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LittleYellowKitView.h; sourceTree = "<group>"; };
+		F54932631C1840D500F68392 /* LittleYellowKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LittleYellowKitView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F549323D1C18408700F68392 /* LaunchScreen.storyboard */,
 				F54932401C18408700F68392 /* Info.plist */,
 				F549322F1C18408700F68392 /* Supporting Files */,
+				F54932621C1840D500F68392 /* LittleYellowKitView.h */,
+				F54932631C1840D500F68392 /* LittleYellowKitView.m */,
 			);
 			path = 27_little_yellow_man;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54932371C18408700F68392 /* ViewController.m in Sources */,
+				F54932641C1840D500F68392 /* LittleYellowKitView.m in Sources */,
 				F54932341C18408700F68392 /* AppDelegate.m in Sources */,
 				F54932311C18408700F68392 /* main.m in Sources */,
 			);

@@ -15,6 +15,7 @@
 		F54931791C16EAEB00F68392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54931771C16EAEB00F68392 /* LaunchScreen.storyboard */; };
 		F54931841C16EAEB00F68392 /* _4_draw_graphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54931831C16EAEB00F68392 /* _4_draw_graphTests.m */; };
 		F549318F1C16EAEB00F68392 /* _4_draw_graphUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F549318E1C16EAEB00F68392 /* _4_draw_graphUITests.m */; };
+		F549319E1C16EB2500F68392 /* DDGraphDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F549319D1C16EB2500F68392 /* DDGraphDrawingView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F549318A1C16EAEB00F68392 /* 24_draw_graphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 24_draw_graphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F549318E1C16EAEB00F68392 /* _4_draw_graphUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_draw_graphUITests.m; sourceTree = "<group>"; };
 		F54931901C16EAEB00F68392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F549319C1C16EB2500F68392 /* DDGraphDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGraphDrawingView.h; sourceTree = "<group>"; };
+		F549319D1C16EB2500F68392 /* DDGraphDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGraphDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54931771C16EAEB00F68392 /* LaunchScreen.storyboard */,
 				F549317A1C16EAEB00F68392 /* Info.plist */,
 				F54931691C16EAEB00F68392 /* Supporting Files */,
+				F549319C1C16EB2500F68392 /* DDGraphDrawingView.h */,
+				F549319D1C16EB2500F68392 /* DDGraphDrawingView.m */,
 			);
 			path = 24_draw_graph;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F549319E1C16EB2500F68392 /* DDGraphDrawingView.m in Sources */,
 				F54931711C16EAEB00F68392 /* ViewController.m in Sources */,
 				F549316E1C16EAEB00F68392 /* AppDelegate.m in Sources */,
 				F549316B1C16EAEB00F68392 /* main.m in Sources */,

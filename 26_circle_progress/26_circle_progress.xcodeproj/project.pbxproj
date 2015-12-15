@@ -15,6 +15,7 @@
 		F54931FD1C1726E400F68392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54931FB1C1726E400F68392 /* LaunchScreen.storyboard */; };
 		F54932081C1726E400F68392 /* _6_circle_progressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932071C1726E400F68392 /* _6_circle_progressTests.m */; };
 		F54932131C1726E400F68392 /* _6_circle_progressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932121C1726E400F68392 /* _6_circle_progressUITests.m */; };
+		F54932221C17278B00F68392 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54932211C17278B00F68392 /* CircleProgressView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F549320E1C1726E400F68392 /* 26_circle_progressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 26_circle_progressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54932121C1726E400F68392 /* _6_circle_progressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_circle_progressUITests.m; sourceTree = "<group>"; };
 		F54932141C1726E400F68392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54932201C17278B00F68392 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		F54932211C17278B00F68392 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54931FB1C1726E400F68392 /* LaunchScreen.storyboard */,
 				F54931FE1C1726E400F68392 /* Info.plist */,
 				F54931ED1C1726E400F68392 /* Supporting Files */,
+				F54932201C17278B00F68392 /* CircleProgressView.h */,
+				F54932211C17278B00F68392 /* CircleProgressView.m */,
 			);
 			path = 26_circle_progress;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			files = (
 				F54931F51C1726E400F68392 /* ViewController.m in Sources */,
 				F54931F21C1726E400F68392 /* AppDelegate.m in Sources */,
+				F54932221C17278B00F68392 /* CircleProgressView.m in Sources */,
 				F54931EF1C1726E400F68392 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

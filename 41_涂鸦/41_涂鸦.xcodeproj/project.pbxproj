@@ -15,6 +15,7 @@
 		F5EE7A5E1C1EA4C300B051FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EE7A5C1C1EA4C300B051FD /* LaunchScreen.storyboard */; };
 		F5EE7A691C1EA4C300B051FD /* _1___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7A681C1EA4C300B051FD /* _1___Tests.m */; };
 		F5EE7A741C1EA4C300B051FD /* _1___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7A731C1EA4C300B051FD /* _1___UITests.m */; };
+		F5EE7A831C1EA54100B051FD /* DDPainterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EE7A821C1EA54100B051FD /* DDPainterView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F5EE7A6F1C1EA4C300B051FD /* 41_涂鸦UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "41_涂鸦UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5EE7A731C1EA4C300B051FD /* _1___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___UITests.m"; sourceTree = "<group>"; };
 		F5EE7A751C1EA4C300B051FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EE7A811C1EA54100B051FD /* DDPainterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPainterView.h; sourceTree = "<group>"; };
+		F5EE7A821C1EA54100B051FD /* DDPainterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPainterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F5EE7A5C1C1EA4C300B051FD /* LaunchScreen.storyboard */,
 				F5EE7A5F1C1EA4C300B051FD /* Info.plist */,
 				F5EE7A4E1C1EA4C300B051FD /* Supporting Files */,
+				F5EE7A811C1EA54100B051FD /* DDPainterView.h */,
+				F5EE7A821C1EA54100B051FD /* DDPainterView.m */,
 			);
 			path = "41_涂鸦";
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5EE7A831C1EA54100B051FD /* DDPainterView.m in Sources */,
 				F5EE7A561C1EA4C300B051FD /* ViewController.m in Sources */,
 				F5EE7A531C1EA4C300B051FD /* AppDelegate.m in Sources */,
 				F5EE7A501C1EA4C300B051FD /* main.m in Sources */,

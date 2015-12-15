@@ -27,12 +27,20 @@
     
     [progressInfo drawInRect:CGRectMake(textX, textY, textW, textH) withAttributes:nil];
     
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGFloat radius = (viewW - 10) * 0.5;
+    CGFloat endAngle = self.progress * 2 * M_PI - M_PI_4;
+    CGContextAddArc(context, viewW * 0.5, viewH * 0.5, radius, -M_PI_4, endAngle, 0);
+    
+    CGContextStrokePath(context);
+    
     
 }
 
 
 -(void)setProgress:(float)progress{
     _progress = progress;
+    [self setNeedsDisplay];
 }
 
 @end

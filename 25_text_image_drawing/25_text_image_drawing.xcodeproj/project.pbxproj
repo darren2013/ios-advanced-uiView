@@ -15,6 +15,7 @@
 		F54931BB1C1721AA00F68392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54931B91C1721AA00F68392 /* LaunchScreen.storyboard */; };
 		F54931C61C1721AA00F68392 /* _5_text_image_drawingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54931C51C1721AA00F68392 /* _5_text_image_drawingTests.m */; };
 		F54931D11C1721AA00F68392 /* _5_text_image_drawingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F54931D01C1721AA00F68392 /* _5_text_image_drawingUITests.m */; };
+		F54931E01C17220900F68392 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F54931DF1C17220900F68392 /* DrawingView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F54931CC1C1721AA00F68392 /* 25_text_image_drawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 25_text_image_drawingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54931D01C1721AA00F68392 /* _5_text_image_drawingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _5_text_image_drawingUITests.m; sourceTree = "<group>"; };
 		F54931D21C1721AA00F68392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54931DE1C17220900F68392 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		F54931DF1C17220900F68392 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F54931B91C1721AA00F68392 /* LaunchScreen.storyboard */,
 				F54931BC1C1721AA00F68392 /* Info.plist */,
 				F54931AB1C1721AA00F68392 /* Supporting Files */,
+				F54931DE1C17220900F68392 /* DrawingView.h */,
+				F54931DF1C17220900F68392 /* DrawingView.m */,
 			);
 			path = 25_text_image_drawing;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				F54931B31C1721AA00F68392 /* ViewController.m in Sources */,
 				F54931B01C1721AA00F68392 /* AppDelegate.m in Sources */,
 				F54931AD1C1721AA00F68392 /* main.m in Sources */,
+				F54931E01C17220900F68392 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

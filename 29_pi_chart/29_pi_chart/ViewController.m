@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PiChartView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    PiChartView *piChart = [[PiChartView alloc] init];
+    
+    
+    piChart.frame = CGRectMake(50, 60, 200, 200);
+    piChart.backgroundColor = [UIColor whiteColor];
+    
+    piChart.sections = @[@20.3,@40.5,@123.5,@66,@89.5];
+    piChart.colors = @[[UIColor redColor],[UIColor greenColor],[UIColor blueColor],[UIColor yellowColor],[UIColor blackColor]];
+    
+    [self.view addSubview:piChart];
 }
 
 - (void)didReceiveMemoryWarning {

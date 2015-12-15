@@ -10,4 +10,8 @@
 
 @interface UIImage (DD)
 
++(UIImage *)waterImageWithBackgroundImageName:(NSString *)groundImageName waterImageName:(NSString *) waterImageName scale:(CGFloat)scale;
+
+
+
 @end

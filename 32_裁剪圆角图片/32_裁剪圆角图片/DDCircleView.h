@@ -10,4 +10,11 @@
 
 @interface DDCircleView : UIView
 
+@property(nonatomic,copy)NSString *imageName;
+
+@property(nonatomic,assign)CGFloat borderWidth;
+
+@property(nonatomic,strong)UIColor *color;
+
+
 @end

@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "CircleProgressView.h"
 
 @interface ViewController ()
+
+- (IBAction)slideProgressChanged:(UISlider *)sender;
+
+@property (weak, nonatomic) IBOutlet CircleProgressView *circleView;
 
 @end
 
@@ -24,4 +29,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)slideProgressChanged:(UISlider *)sender {
+    NSLog(@"%f",sender.value);
+    self.circleView.progress = sender.value;
+    
+}
 @end

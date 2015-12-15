@@ -43,4 +43,38 @@
     return newImage;
 
 }
+
++(UIImage *)circleImageWithImageName:(NSString *)imageName borderColor:(UIColor *)borderColor borderWidth:(CGFloat)borderWidth{
+    UIImage *image = [UIImage imageNamed:imageName];
+    CGRect imageRect = CGRectMake(0, 0, image.size.width, image.size.height);
+    
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0.0);
+    
+    //获取位图上下文,在自定义view的drawRect方法中，通过UIGraphicsGetCurrentContext获取的是Layer Graphics Context
+    CGContextRef bitmapContext = UIGraphicsGetCurrentContext();
+    
+    //指定一个圆形路径，把圆形路径之外裁剪掉
+    CGContextAddEllipseInRect(bitmapContext, imageRect);
+    CGContextClip(bitmapContext);
+    
+    //添加图片
+    [image drawInRect:imageRect];
+    
+    //添加边框,一定要放在添加图片后面
+    [borderColor set ];
+    CGContextSetLineWidth(bitmapContext, borderWidth);
+    CGContextAddEllipseInRect(bitmapContext, imageRect);
+    CGContextStrokePath(bitmapContext);
+    
+    
+    
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    //NSData *imageData = UIImagePNGRepresentation(newImage);
+    //[imageData writeToFile:@"/Users/darrendu/Desktop/new.png" atomically:YES];
+    
+    return newImage;
+}
 @end

@@ -10,4 +10,13 @@
 
 @interface DDPainterView : UIView
 
+
+
+@property(nonatomic,strong)UIColor *currentColor;
+
+-(void)back;
+
+-(void)clear;
+
+
 @end

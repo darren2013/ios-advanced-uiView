@@ -15,6 +15,7 @@
 		F5938C7C1C1F0E6B001FF069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5938C7A1C1F0E6B001FF069 /* LaunchScreen.storyboard */; };
 		F5938C871C1F0E6C001FF069 /* _4_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5938C861C1F0E6C001FF069 /* _4_____Tests.m */; };
 		F5938C921C1F0E6C001FF069 /* _4_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5938C911C1F0E6C001FF069 /* _4_____UITests.m */; };
+		F5938CA11C1F0EDA001FF069 /* DDGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5938CA01C1F0EDA001FF069 /* DDGestureLockView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F5938C8D1C1F0E6C001FF069 /* 44_手势解锁UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "44_手势解锁UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5938C911C1F0E6C001FF069 /* _4_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_____UITests.m"; sourceTree = "<group>"; };
 		F5938C931C1F0E6C001FF069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5938C9F1C1F0EDA001FF069 /* DDGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDGestureLockView.h; sourceTree = "<group>"; };
+		F5938CA01C1F0EDA001FF069 /* DDGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDGestureLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				F5938C7A1C1F0E6B001FF069 /* LaunchScreen.storyboard */,
 				F5938C7D1C1F0E6B001FF069 /* Info.plist */,
 				F5938C6C1C1F0E6B001FF069 /* Supporting Files */,
+				F5938C9F1C1F0EDA001FF069 /* DDGestureLockView.h */,
+				F5938CA01C1F0EDA001FF069 /* DDGestureLockView.m */,
 			);
 			path = "44_手势解锁";
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5938C741C1F0E6B001FF069 /* ViewController.m in Sources */,
+				F5938CA11C1F0EDA001FF069 /* DDGestureLockView.m in Sources */,
 				F5938C711C1F0E6B001FF069 /* AppDelegate.m in Sources */,
 				F5938C6E1C1F0E6B001FF069 /* main.m in Sources */,
 			);
